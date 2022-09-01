@@ -174,3 +174,47 @@ h3 {
     padding-left: 450px;
     color: #595b5d;
 }
+
+/* sign-up section */
+.signup {
+    background-color: #3882f6;
+    color: white;
+    height: 70px;
+    width: 850px;
+    margin: 90px auto;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 290px;
+}
+
+.content h4 {
+    font-size: 20px;
+    margin: 2px auto;
+}
+
+.content p {
+    color: #c4c4c4;
+    margin: auto;
+}
+
+.signup button {
+    background-color: #3882f6;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 28px;
+    font-size: 16px;
+}
+
+/* sign-up section ^ */
+
+/* footer */
+.footer {
+    background-color: #1f2937;
+    color: #b6b6b6;
+    text-align: center;
+}
