@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family: 'Arial', sans-serif;
 }
 
 
@@ -13,11 +14,10 @@ body {
     align-items: center;
     gap: 99px;
     padding-top: 18px;
-    padding-bottom: 100px;
-    font-family: sans-serif;
+    padding-bottom: 120px;
 }
 
-/* header v */
+/* header */
 .header {
     width: 920px;
     display: flex;
@@ -27,7 +27,7 @@ body {
 
 .header-logo {
     font-size: 21px;
-    font-weight: bold;
+    font-weight: 900;
     color: #f9faf8
 }
 
@@ -51,7 +51,7 @@ a {
 
 /* header ^*/
 
-/* header-content v */
+/* header-content */
 .hero .content {
     width: 920px;
     height: 210px;
@@ -85,7 +85,7 @@ h2 {
     color: white;
     font-weight: bold;
     font-size: 14px;
-    padding: 8px 26px;
+    padding: 8px 28px;
     border: none;
     border-radius: 5px;
 }
@@ -101,4 +101,76 @@ h2 {
 
 .image {
     color: #e5e7ebe4;
+}
+
+/* header-content ^ */
+
+/* info section */
+.info {
+    text-align: center;
+    padding-bottom: 118px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 45px auto;
+}
+
+.info .all-content {
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+}
+
+.container {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.box {
+    border: solid;
+    border-width: 4px;
+    border-radius: 12px;
+    border-color: #3882f6;
+    height: 135px;
+    width: 135px;
+}
+
+.container .content {
+    color: #898989;
+}
+
+/* info section ^ */
+
+/* quote section */
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 130px;
+}
+
+.quote .container {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .content {
+    font-size: 32px;
+    font-style: italic;
+    color: #626568;
+}
+
+.author {
+    font-size: 19px;
+    font-weight: 800;
+    padding-left: 450px;
+    color: #595b5d;
 }
