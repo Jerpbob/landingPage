@@ -74,7 +74,6 @@ h2 {
 .left-content p {
     font-size: 15px;
     color: #e5e7ebe0;
-    margin: 5px;
     margin-left: 0px;
     margin-bottom: 10px;
     padding-right: 8px;
@@ -88,6 +87,7 @@ h2 {
     padding: 8px 28px;
     border: none;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 .right-content {
